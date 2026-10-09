@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Olivia (Yufei) Wu</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff;--fg:#222;--muted:#666;--accent:#1a5fb4;--line:#e5e5e5}
+@media (prefers-color-scheme:dark){:root{--bg:#141414;--fg:#e6e6e6;--muted:#9a9a9a;--accent:#7fb2ff;--line:#2a2a2a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 "Source Serif 4",Georgia,serif}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);font-family:Inter,sans-serif;font-size:14px;z-index:1}
+nav .in{max-width:960px;margin:auto;padding:12px 16px;display:flex;gap:20px;flex-wrap:wrap}
+nav .name{font-weight:500;margin-right:auto;color:var(--fg)}
+.wrap{max-width:960px;margin:auto;padding:32px 16px;display:grid;grid-template-columns:240px 1fr;gap:48px}
+aside{position:sticky;top:72px;align-self:start;font-family:Inter,sans-serif;font-size:14px}
+aside img{width:180px;height:180px;border-radius:50%;object-fit:cover;background:var(--line);display:block;margin-bottom:16px}
+aside h1{font:600 24px "Source Serif 4",serif;margin:0 0 4px}
+aside p{margin:2px 0;color:var(--muted)}
+aside ul{list-style:none;padding:0;margin:16px 0 0}aside li{margin:6px 0}
+h2{font-size:22px;font-weight:600;border-bottom:1px solid var(--line);padding-bottom:6px;margin:40px 0 16px}
+section:first-child h2{margin-top:0}
+.item{margin-bottom:18px}.item b{font-weight:600}
+.meta{color:var(--muted);font-size:14px;font-family:Inter,sans-serif}
+.news li{margin-bottom:6px}.news .d{color:var(--muted);font-family:Inter,sans-serif;font-size:14px;display:inline-block;width:90px}
+.tag{font-family:Inter,sans-serif;font-size:12px;border:1px solid var(--line);border-radius:4px;padding:1px 6px;margin-right:4px;color:var(--muted)}
+footer{text-align:center;color:var(--muted);font:13px Inter,sans-serif;padding:32px 16px}
+@media (max-width:720px){.wrap{grid-template-columns:1fr;gap:24px}aside{position:static;text-align:center}aside img{margin:0 auto 16px}}
+</style>
+</head>
+<body>
+<nav><div class="in"><a class="name" href="#">Olivia (Yufei) Wu</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#education">Education</a></div></nav>
+<div class="wrap">
+<aside>
+  <img src="profile.png" alt="Olivia (Yufei) Wu">
+  <h1>Olivia (Yufei) Wu</h1>
+  <p>Data Scientist</p>
+  <p>Expedia Group</p>
+  <p>Seattle, WA</p>
+  <ul>
+    <li>✉ <a href="mailto:yufeiwuusc@gmail.com">Email</a></li>
+    <li>in <a href="https://www.linkedin.com/in/olivia-yufei-wu/">LinkedIn</a></li>
+    <li>⌥ <a href="https://github.com/YufeiIsOlivia">GitHub</a></li>
+  </ul>
+</aside>
+<main>
+<section id="about">
+  <h2>About</h2>
+  <p>I am a Data Scientist at <a href="https://www.expediagroup.com">Expedia Group</a>. My work covers analytics, modeling, A/B testing, causal inference, ETL, and dashboard development, mostly in Python and SQL on AWS, GCP, and Snowflake.</p>
+  <p>Before Expedia, I worked at Apple, Xiaohongshu (RedNote), Amazon, Sina Blog, and Kintsugi. Across those roles I analyzed user data, built machine learning models, automated data pipelines, and designed A/B tests to inform product and business decisions, improve user experience and ad performance, and drive revenue.</p>
+  <p>My work bridges data, product, and strategy. I hold an M.S. in Analytics from the <a href="https://viterbischool.usc.edu">USC Viterbi School of Engineering</a> and a B.S. in Economics and Statistics &amp; Analytics from <a href="https://www.unc.edu">UNC Chapel Hill</a>.</p>
+</section>
+
+<section id="news">
+  <h2>News</h2>
+  <ul class="news">
+    <li><span class="d">Jan 2026</span> Joined Expedia Group as a Data Scientist.</li>
+    <li><span class="d">2025</span> Completed my M.S. in Analytics at USC Viterbi.</li>
+    <li><span class="d">Jun 2025</span> Started a Data Science internship with Apple Ads in Austin, TX.</li>
+    <li><span class="d">Jan 2025</span> Began research on time-series clustering of fixed-income data at USC.</li>
+  </ul>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="item"><b>Data Scientist</b>, Expedia Group<div class="meta">Jan 2026 – Present · Seattle, WA (Hybrid)</div>
+    Analytics for partner and affiliate products: experiment design and readouts, funnel and conversion measurement, and decision-ready dashboards.</div>
+  <div class="item"><b>Data Scientist Intern</b>, Apple — Apple Ads<div class="meta">Jun 2025 – Aug 2025 · Austin, TX</div>
+    Built the Apple Ads UI notification strategy from scratch to help advertisers improve performance on the platform, including audience targeting and a strategy evaluation framework, and delivered personalized content to 70k advertisers.<br><span class="tag">A/B Testing</span><span class="tag">ETL</span></div>
+  <div class="item"><b>Data Science Research Assistant</b>, USC Viterbi School of Engineering<div class="meta">Jan 2025 – Jul 2025 · Los Angeles, CA</div>
+    Supervised by Prof. Bruce Wilcox. Topic: applying time-series clustering to fixed-income data.<br><span class="tag">Clustering</span><span class="tag">Time Series</span></div>
+  <div class="item"><b>Data Scientist Intern, Marketing</b>, Kintsugi Global, Inc.<div class="meta">May 2024 – Aug 2024 · Los Angeles, CA</div>
+    <span class="tag">A/B Testing</span><span class="tag">Market Research</span></div>
+  <div class="item"><b>Business Analyst Intern</b>, Xiaohongshu (RedNote)<div class="meta">Sep 2023 – Dec 2023 · Beijing, China</div>
+    <span class="tag">Python</span><span class="tag">SQL</span></div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="item"><b>M.S. in Analytics</b>, University of Southern California, Viterbi School of Engineering<div class="meta">Jan 2024 – 2025</div>
+    Selected coursework: Machine Learning, Data Mining, Large Language Models, Optimization, Business Intelligence &amp; MLOps, Data Management</div>
+  <div class="item"><b>B.S. in Economics and Statistics &amp; Analytics</b>, University of North Carolina at Chapel Hill<div class="meta">Sep 2019 – May 2023</div>
+    Selected coursework: Advanced Econometrics, Statistics Theory, Probability, Data Models and Inference, Machine Learning, Linear Algebra</div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <p><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">A/B Testing</span><span class="tag">Causal Inference</span><span class="tag">Machine Learning</span><span class="tag">ETL</span><span class="tag">Dashboards</span><span class="tag">AWS</span><span class="tag">GCP</span><span class="tag">Snowflake</span></p>
+</section>
+</main>
+</div>
+<footer>© 2026 Olivia (Yufei) Wu · Last updated Oct 2026</footer>
+</body>
+</html>
