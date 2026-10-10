@@ -28,8 +28,9 @@ section:first-child h2{margin-top:0}
 .tag{font-family:Inter,sans-serif;font-size:12px;border:1px solid var(--line);border-radius:4px;padding:1px 6px;margin-right:4px;color:var(--muted)}
 .job{margin-bottom:24px}
 .job .wordmark{height:36px;width:auto;display:block;margin-bottom:6px}
+.job .wordmark[alt^="USC"],.job .wordmark[alt^="University"]{height:44px}
 .job .wordmark[alt="Xiaohongshu"]{height:40px;border-radius:9px}
-@media (prefers-color-scheme:dark){.job .wordmark[alt="Apple"]{filter:invert(1)}}
+@media (prefers-color-scheme:dark){.job .wordmark{background:#fff;padding:4px 6px;border-radius:6px}}
 .job .co{font-size:18px;font-weight:600;line-height:1.3}.job .cn{font-weight:400;color:var(--muted);font-size:15px}
 .job .role{font-family:Inter,sans-serif;font-size:15px}.job p{margin:6px 0 0}
 footer{text-align:center;color:var(--muted);font:13px Inter,sans-serif;padding:32px 16px}
@@ -76,9 +77,9 @@ footer{text-align:center;color:var(--muted);font:13px Inter,sans-serif;padding:3
 
 <section id="education">
   <h2>Education</h2>
-  <div class="item"><b>M.S. in Analytics</b>, University of Southern California, Viterbi School of Engineering<div class="meta">Jan 2024 – 2025</div>
+  <div class="job"><div class="co"><img class="wordmark" src="logos/usc_logo.png" alt="USC Viterbi School of Engineering"></div><div class="role">M.S. in Analytics</div><div class="meta">Jan 2024 – 2025</div>
     Selected coursework: Machine Learning, Data Mining, Large Language Models, Optimization, Business Intelligence &amp; MLOps, Data Management</div>
-  <div class="item"><b>B.S. in Economics and Statistics &amp; Analytics</b>, University of North Carolina at Chapel Hill<div class="meta">Sep 2019 – May 2023</div>
+  <div class="job"><div class="co"><img class="wordmark" src="logos/unc_logo.png" alt="University of North Carolina at Chapel Hill"></div><div class="role">B.S. in Economics and Statistics &amp; Analytics</div><div class="meta">Sep 2019 – May 2023</div>
     Selected coursework: Advanced Econometrics, Statistics Theory, Probability, Data Models and Inference, Machine Learning, Linear Algebra</div>
 </section>
 
