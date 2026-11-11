@@ -33,6 +33,7 @@ section:first-child h2{margin-top:0}
 @media (prefers-color-scheme:dark){.job .wordmark{background:#fff;padding:4px 6px;border-radius:6px}}
 .job .co{font-size:18px;font-weight:600;line-height:1.3}.job .cn{font-weight:400;color:var(--muted);font-size:15px}
 .job .role{font-family:Inter,sans-serif;font-size:15px}.job p{margin:6px 0 0}
+.job ul.hl{margin:8px 0 0;padding-left:20px}.job ul.hl li{margin:4px 0}.job ul.hl b{font-weight:600}
 footer{text-align:center;color:var(--muted);font:13px Inter,sans-serif;padding:32px 16px}
 @media (max-width:720px){.wrap{grid-template-columns:1fr;gap:24px}aside{position:static;text-align:center}aside img{margin:0 auto 16px}}
 </style>
@@ -64,11 +65,28 @@ footer{text-align:center;color:var(--muted);font:13px Inter,sans-serif;padding:3
   <div class="job"><div>
     <div class="co"><img class="wordmark" src="logos/expedia_logo.png" alt="Expedia Group"></div>
     <div class="role">Data Scientist</div><div class="meta">Jan 2026 – Present · Seattle, WA</div>
-    <p>Analytics for partner and affiliate products: experiment design and readouts, funnel and conversion measurement, and decision-ready dashboards.</p></div></div>
+    <p>Drove analytics for Expedia’s SPA (Strategic Partners and Affiliates) partner business across coupon, BNPL (Buy Now Pay Later), and loyalty products, contributing to double-digit YoY product profit growth and $10M+ in annualized gross profit.</p>
+    <ul class="hl">
+      <li><b>Product Strategy:</b> Partnered with PMs across the full product launch lifecycle, from opportunity sizing and success-metric design to A/B test readouts and post-launch monitoring, for 10+ SPA product launches.</li>
+      <li><b>Experimentation:</b> Designed and delivered deep-dive reports for 20+ A/B tests on new launches, website design, content variations, and product strategy to improve conversion and engagement, generating multi-million-dollar annualized gross profit; diagnosed downstream blockers and sequenced fixes before launch.</li>
+      <li><b>Causal Inference:</b> Applied causal inference (CausalImpact) when A/B tests were infeasible for 100% rollouts without a clean control, generating multi-million-dollar annualized gross profit.</li>
+      <li><b>Product Analytics:</b> Delivered insights on traveler behavior and partner profitability that shaped the 2027 strategy and product roadmap for the BNPL and coupon product lines.</li>
+      <li><b>AI Adoption:</b> Built custom AI skills and workflows that cut analysis time by 50%+ and let PMs self-serve data pulls, accelerating time-to-insight.</li>
+      <li><b>Agent Evaluation:</b> Built a ground-truth benchmark of analyst-verified queries and values for SPA’s BI agent, closing a gap where the existing LLM-judge evals never checked numeric correctness.</li>
+      <li><b>Machine Learning:</b> Used XGBoost models with SHAP to pinpoint the dimensions (partner, brand, device, region) whose influence shifted under treatment, then tested segment-level uplift across multi-dimension combinations, cutting root-cause analysis time by 20%.</li>
+    </ul></div></div>
   <div class="job"><div>
     <div class="co"><img class="wordmark" src="logos/apple_logo.png" alt="Apple"></div>
     <div class="role">Data Scientist Intern · Apple Ads</div><div class="meta">Jun 2025 – Aug 2025 · Austin, TX</div>
-    <p>Built the Apple Ads UI notification strategy from scratch to help advertisers improve performance on the platform, including audience targeting and a strategy evaluation framework, and delivered personalized content to 70k advertisers.</p></div></div>
+    <p>Built the Apple Ads UI notification strategy to help advertisers improve performance on the Ads platform, including audience targeting and an evaluation framework, and delivered personalized content to 70k advertisers.</p>
+    <ul class="hl">
+      <li><b>Feature Adoption:</b> Drove adoption of high-impact features, such as custom product pages, through targeted UI notifications.</li>
+      <li><b>Predictive Modeling:</b> Prioritized advertising strategies by training predictive models on advertiser characteristics and intervention-adoption signals to estimate conversion rate (CVR), and analyzing feature importance and SHAP values.</li>
+      <li><b>Causal Inference:</b> Demonstrated the effect of 10 selected notification interventions on CVR by quantifying their causal impact with Double Machine Learning, excluding 2 low-impact strategies.</li>
+      <li><b>Targeting Automation:</b> Automated targeting execution by integrating an audience targeting algorithm into the product workflow.</li>
+      <li><b>Data Engineering:</b> Accelerated reporting by building an Airflow-based ETL pipeline that incrementally populates historical tables monthly, and created Tableau dashboards for audience targeting and experiment insights.</li>
+      <li><b>Collaboration:</b> Worked with cross-functional teams to align on the strategy and deployment plans.</li>
+    </ul></div></div>
   <div class="job"><div>
     <div class="co"><img class="wordmark" src="logos/xiaohongshu_logo.png" alt="Xiaohongshu"></div>
     <div class="role">Business Analyst Intern</div><div class="meta">Sep 2023 – Dec 2023 · Beijing, China</div></div></div>
@@ -88,6 +106,6 @@ footer{text-align:center;color:var(--muted);font:13px Inter,sans-serif;padding:3
 </section>
 </main>
 </div>
-<footer>© 2026 Yufei (Olivia) Wu · Last updated Oct 2026</footer>
+<footer>© 2026 Yufei (Olivia) Wu · Last updated Nov 2026</footer>
 </body>
 </html>
